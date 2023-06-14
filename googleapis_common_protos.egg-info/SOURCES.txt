@@ -92,11 +92,15 @@ google/rpc/code.proto
 google/rpc/code_pb2.py
 google/rpc/error_details.proto
 google/rpc/error_details_pb2.py
+google/rpc/http.proto
+google/rpc/http_pb2.py
 google/rpc/status.proto
 google/rpc/status_pb2.py
 google/rpc/context/__init__.py
 google/rpc/context/attribute_context.proto
 google/rpc/context/attribute_context_pb2.py
+google/rpc/context/audit_context.proto
+google/rpc/context/audit_context_pb2.py
 google/type/__init__.py
 google/type/calendar_period.proto
 google/type/calendar_period_pb2.py

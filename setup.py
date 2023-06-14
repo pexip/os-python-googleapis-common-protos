@@ -20,11 +20,13 @@ import setuptools
 
 name = "googleapis-common-protos"
 description = "Common protobufs used in Google APIs"
-version = "1.56.4"
+version = "1.59.1"
 release_status = "Development Status :: 5 - Production/Stable"
-dependencies = ["protobuf >= 3.15.0, <5.0.0dev"]
+dependencies = [
+    "protobuf>=3.19.5,<5.0.0.dev0,!=3.20.0,!=3.20.1,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5",
+]
 
-extras_require = {"grpc": ["grpcio >= 1.0.0, <2.0.0dev"]}
+extras_require = {"grpc": ["grpcio >= 1.44.0, <2.0.0.dev0"]}
 
 package_root = os.path.abspath(os.path.dirname(__file__))
 
@@ -52,6 +54,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: Implementation :: CPython",
     ],
     description=description,
