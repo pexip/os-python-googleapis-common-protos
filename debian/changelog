@@ -1,3 +1,9 @@
+python-googleapis-common-protos (1.59.1-0pexip1) pexip; urgency=medium
+
+  * New upstream release
+
+ -- Huw Jones <huw@pexip.com>  Wed, 14 Jun 2023 14:45:50 +0100
+
 python-googleapis-common-protos (1.56.4-0pexip2) pexip-bullseye; urgency=medium
 
   * Bullseye rebuild for ARM64 inclusion
