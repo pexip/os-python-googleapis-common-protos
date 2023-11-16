@@ -1,3 +1,9 @@
+python-googleapis-common-protos (1.59.1-0pexip3) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:23:34 +0000
+
 python-googleapis-common-protos (1.59.1-0pexip2) pexip; urgency=medium
 
   * No-change rebuild
