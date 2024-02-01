@@ -1,3 +1,9 @@
+python-googleapis-common-protos (1.59.1-0+pexip24u5) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:22:15 +0000
+
 python-googleapis-common-protos (1.59.1-0pexip4) pexip-bookworm; urgency=medium
 
   * Bookworm build for product distribution
