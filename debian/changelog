@@ -1,3 +1,9 @@
+python-googleapis-common-protos (1.59.1-0+pexip25u1) pexip-trixie; urgency=medium
+
+  * Initial trixie build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Tue, 29 Apr 2025 22:53:39 +0100
+
 python-googleapis-common-protos (1.59.1-0+pexip24u5) pexip-bookworm; urgency=medium
 
   * New versioning scheme
